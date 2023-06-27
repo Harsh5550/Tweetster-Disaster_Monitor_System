@@ -1,3 +1,5 @@
+# Tweetster- Disaster Monitor System
+
 Welcome to the GitHub repository for the Tweetster Disaster Monitor Android application!
 
 This repository is dedicated to the development of the Android component of Tweetster Disaster Monitor. Our goal is to create a powerful and user-friendly disaster monitoring and response tool that leverages the capabilities of Natural Language Processing (NLP) and geolocation technology.
