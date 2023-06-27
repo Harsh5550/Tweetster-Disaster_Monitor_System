@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Tweetster" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="android:statusBarColor">#000000</item>
+        <item name="actionOverflowButtonStyle">@style/ThreeDotColor</item>
+        <item name="colorControlNormal">@color/grey</item>
+        <item name="actionBarTheme">@style/AppTheme</item>
+        <item name="popupTheme">@style/PopupAppTheme</item>
+    </style>
+
+    <style name="CustomAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Customize the theme attributes for the dialog -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- Add any other attributes you want to customize for the dialog -->
+
+        <!-- Customize the theme attributes for the positive button -->
+        <item name="android:buttonBarPositiveButtonStyle">@style/CustomPositiveButtonStyle</item>
+
+        <!-- Customize the theme attributes for the negative button -->
+        <item name="android:buttonBarNegativeButtonStyle">@style/CustomNegativeButtonStyle</item>
+    </style>
+
+    <style name="CustomPositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <!-- Customize the theme attributes for the positive button -->
+        <item name="android:textColor">#FF0000</item>
+        <!-- Add any other attributes you want to customize for the positive button -->
+    </style>
+
+    <style name="CustomNegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <!-- Customize the theme attributes for the negative button -->
+        <item name="android:textColor">#0000FF</item>
+        <!-- Add any other attributes you want to customize for the negative button -->
+    </style>
+
+    <style name="ThreeDotColor" parent="Widget.AppCompat.Light.ActionButton.Overflow">
+        <item name="tint">@color/grey</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize the title color -->
+        <item name="android:textColorPrimary">#F5F8FA</item>
+        <!-- Customize the subtitle color -->
+        <item name="android:textColorSecondary">#F5F8FA</item>
+        <!-- Other style attributes -->
+    </style>
+
+    <style name="PopupAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize the popup menu theme -->
+        <item name="popupMenuStyle">@style/PopupMenuStyle</item>
+    </style>
+
+    <style name="PopupMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <!-- Customize the text color of the popup menu items -->
+        <item name="android:textColor">@color/darkBlue</item>
+    </style>
+
+</resources>

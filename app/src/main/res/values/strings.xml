@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tweetster</string>
+    <string name="welcome">Welcome</string>
+    <string name="user_id">User Id</string>
+    <string name="tweet">Tweet</string>
+    <string name="submit">Submit</string>
+    <string name="name">Name</string>
+    <string name="developed_by_team_tweetster">developed by Team Tweetster</string>
+    <string name="is_your_tweet_suggesting_a_disaster">Is your tweet suggesting a Disaster?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="description_of_disaster">Description of Disaster</string>
+</resources>
